@@ -1,0 +1,14 @@
+ {
+     "name": "foo/weather",
+     "require":
+     {
+         "symfony/console":"~2.6",
+         "guzzlehttp/guzzle":"~5.0",
+         "symfony/finder": "~2.6"
+     },
+     "autoload":
+     {
+         "psr-0":{"":"src/"}
+     }
+}
+
